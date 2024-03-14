@@ -6,14 +6,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "20% Off Sleep Week Sale",
             "heading_size": "h0"
+          }
+        },
+        "text_jnTdah": {
+          "type": "text",
+          "settings": {
+            "text": "Good days start with great sleep.",
+            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -24,12 +31,14 @@
       },
       "block_order": [
         "heading",
+        "text_jnTdah",
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/banner1.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
@@ -39,37 +48,389 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
+    "rich_text_mxdMcV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fFW3Ja": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bundle & Save",
+            "heading_size": "h1"
+          }
+        },
+        "text_3pqwzT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Save up to 40% on bundles during Sleep Week.<\/p>"
+          }
+        },
+        "button_yJtmiP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Bundles Now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fFW3Ja",
+        "text_3pqwzT",
+        "button_yJtmiP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_CQJzxh": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Shop by Category",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
+        "collection": "",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_8N8FhF": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_e6zdXy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_gVLWTQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Rge8gM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_e6zdXy",
+        "featured_collection_gVLWTQ",
+        "featured_collection_Rge8gM"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_TtapR4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gnUD3P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Come Say Hi, RL",
+            "heading_size": "h1"
+          }
+        },
+        "text_nmNNYb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've got comfort in the bag (yours) at a store near you.<\/p>"
+          }
+        },
+        "button_gETV9Y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Your Store",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_gnUD3P",
+        "text_nmNNYb",
+        "button_gETV9Y"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_tkrErm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GRp6tV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Broklinen?",
+            "heading_size": "h1"
+          }
+        },
+        "button_eQb7hL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Best Sellers",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GRp6tV",
+        "button_eQb7hL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_VCpwhm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qKifKa": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Premium Materials<\/strong>",
+            "text": "<p>Tested by our in-house experts so you get high-quality products that last.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8CnNTj": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Something for everyone<\/strong>",
+            "text": "<p>Whether you like it cozy or tend to kick the covers off, we’ve got the perfect fabric for your sleep habits.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mBrhDy": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>365-day warranty<\/strong>",
+            "text": "<p>We’re so confident you’ll love what you buy from us, we’ve got a 365-day warranty.<\/p><h2><\/h2>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qKifKa",
+        "column_8CnNTj",
+        "column_mBrhDy"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tGJ8Fk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_W3BEPD": {
+          "type": "heading",
+          "settings": {
+            "heading": "As Seen In",
+            "heading_size": "h1"
+          }
+        },
+        "button_jXiqL3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Award-Winners",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_W3BEPD",
+        "button_jXiqL3"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_VkakLU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collection_list_haKjgB": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_bgmyie": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_NGpq7f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_H9QPCc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_bgmyie",
+        "featured_collection_NGpq7f",
+        "featured_collection_H9QPCc"
+      ],
+      "settings": {
+        "title": "Our Award-Winning Sheets",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_qrDEkK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nRLypK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need Some Help? Take the Quiz",
+            "heading_size": "h1"
+          }
+        },
+        "text_kjxiak": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're here to lend a hand in curating all the comforts of home.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_44ajD9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Take the Quiz",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nRLypK",
+        "text_kjxiak",
+        "button_44ajD9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Banner2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "rich_text_mxdMcV",
+    "featured_collection_CQJzxh",
+    "collection_list_8N8FhF",
+    "rich_text_TtapR4",
+    "rich_text_tkrErm",
+    "multicolumn_VCpwhm",
+    "rich_text_tGJ8Fk",
+    "custom_liquid_VkakLU",
+    "collection_list_haKjgB",
+    "image_with_text_qrDEkK"
   ]
 }

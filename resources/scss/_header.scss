@@ -1,0 +1,55 @@
+.utility-bar{
+    background-color: $main-color;
+    padding: 8px;
+    
+    
+    p{
+        color: $text-color;
+        font-size: $p-size;
+        
+    }
+
+}
+
+.epost-icon{
+    margin-top: 7px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.header__inline-menu{
+    padding-left: 12rem;
+
+    li{
+        margin-right: 1rem;
+    }
+}
+
+.header__menu-item span{
+    color: $main-color;
+    font-size: $h2-size;
+}
+
+.banner__heading{
+    color: $main-color;
+    width: 69%;
+    padding-left: 23rem;
+    margin-top: -10rem;
+    font-weight: bold;
+
+
+}
+ .banner__text{
+        color: $main-color;
+
+       
+    }
+     .banner__buttons{
+            color: $main-color;
+            border-radius: 10px;
+        }
+
+
+
+        .title{
+            color: $main-color;
+        }
