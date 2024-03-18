@@ -1,0 +1,283 @@
+.banner__heading{
+    color: $main-color;
+    
+    margin-top: -10rem;
+    font-weight: bold;
+
+
+}
+ .banner__text{
+
+    p{
+        color: $main-color;
+        font-size: 2rem;
+    }
+       
+    }
+
+
+     .banner__buttons{
+            background-color: $main-color;
+            border-radius: 10px;
+
+            .button.button--secondary{
+                background-color: $main-color;
+            }
+        }
+
+
+
+        .title{
+            color: $main-color;
+        }
+
+   .rich-text.content-container {
+
+    background-color: $banner-background;
+
+                .rich-text__heading{
+                    display: flex;
+                    margin-left: -30rem;
+                    color: $main-color;
+                    font-weight: bold;
+
+
+                   
+                }
+                 .rich-text__text{
+                        color:$main-color;
+                        margin-left: -30rem;
+                        display: flex;
+                    }
+
+                    .rich-text__buttons{
+                        display: flex;
+                        margin-left: 70rem;
+                        margin-top: -7rem;
+
+
+                        .button--secondary{
+                            background-color: transparent;
+                            color: $main-color;
+                        }
+
+                    }
+            }
+
+            .collection-list-wrapper{
+
+                .title-wrapper-with-link{
+                  
+                }
+                  .collection-list-title{
+                        padding-left: 35rem;
+                        color: $main-color;
+                        font-size: 5rem;
+                        font-weight: bold;
+                        padding-bottom: 4rem;
+                    }
+            }
+
+            .collection{
+        .collection__title{
+
+            .title{
+              color: $main-color;
+                    font-weight: bold;
+                    font-size: 4rem;
+            
+                h2{
+                    color: $main-color;
+                    font-weight: bold;
+                    font-size: 6rem;
+                }
+            }
+        }
+    }
+
+.rich-text {
+  &.content-container {
+    &.color-scheme-1 {
+      &.gradient {
+        &.rich-text--full-width {
+          &.content-container--full-width {
+            &.section-template--22345734914352__rich_text_tkrErm-padding {
+            background-color: $background;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+        
+        .rich-text {
+  &.content-container {
+    &.color-scheme-1 {
+      &.gradient {
+        &.rich-text--full-width {
+          &.content-container--full-width {
+            &.section-template--22345734914352__rich_text_tkrErm-padding {
+                .rich-text__heading{
+                    margin-left: -15rem;
+                }
+              .rich-text__buttons {
+                &.scroll-trigger {
+                  &.animate--slide-in {
+                                    color: $main-color;
+
+                    .button {
+                      &--primary {
+                    margin-left: -135rem;
+                    margin-top: 2rem;
+                    background-color: transparent;
+                    color: $main-color;
+                           
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+    .multicolumn{
+        background-color: $background;
+.multicolumn-list{
+    padding-top: 3rem;
+    background-color: white;
+    border-radius: 20px;
+
+   
+    h3{
+        color: $main-color;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    p{
+        color: $main-color;
+    }
+}
+    }
+
+// AS SEEN IN
+    .rich-text {
+  &.content-container {
+    &.color-scheme-1 {
+      &.gradient {
+        &.rich-text--full-width {
+          &.content-container--full-width {
+            &.section-template--22345734914352__rich_text_tGJ8Fk-padding {
+                                    background-color: $background;
+
+              .rich-text__blocks {
+                .rich-text__heading {
+                  padding-left: 15rem;
+                }
+                .rich-text__buttons {
+                  &.scroll-trigger {
+                    &.animate--slide-in {
+                      .button {
+                        &--primary {
+                          margin-left: -150rem;
+                          margin-top: 2rem;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//OUR AWARD WINNING
+
+
+.collection-list-wrapper {
+  &.page-width {
+    &.isolate {
+      &.no-mobile-link {
+        &.section-template--22345734914352__collection_list_haKjgB-padding {
+          .title-wrapper-with-link {
+            &.title-wrapper--self-padded-mobile {
+              &.title-wrapper--no-top-margin {
+                .collection-list-title {
+                  margin-left: 3rem;
+                  font-size: 3rem;
+                }
+              }
+            }
+          }
+          
+          .slider-mobile-gutter {
+            &.scroll-trigger {
+              &.animate--slide-in {
+              }
+            }
+          }
+          
+          .collection-list {
+            &.contains-card {
+              &.contains-card--collection {
+                &.contains-card--standard {
+                  &.grid {
+                    &--4-col-desktop {
+                      &--1-col-tablet-down {
+                        .collection-list__item {
+                          &.grid__item {
+                            &.scroll-trigger {
+                              &.animate--slide-in {
+                                .card-wrapper {
+                                  &.animate-arrow {
+                                    .card {
+                                      &.card--standard {
+                                        &.card--media {
+                                          .card__inner {
+                                            .card__media {
+                                            }
+                                            
+                                            .card__content {
+                                              .card__information {
+                                                .card__heading {
+                                                  a {
+                                                  }
+                                                }
+                                                
+                                                .card__caption {
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

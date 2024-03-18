@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/banner1.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -90,21 +90,68 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection_CQJzxh": {
-      "type": "featured-collection",
+    "collection_list_nrtUnn": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_DewkQj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-bundle-savings"
+          }
+        },
+        "featured_collection_bfcDXV": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-sheets"
+          }
+        },
+        "featured_collection_dRUjWN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-comforters-duvets"
+          }
+        },
+        "featured_collection_zePMBR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shop-bath"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_DewkQj",
+        "featured_collection_bfcDXV",
+        "featured_collection_dRUjWN",
+        "featured_collection_zePMBR"
+      ],
       "settings": {
         "title": "Shop by Category",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_i3hkMU": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Our bestsellers",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "shop-bundle-savings",
+        "products_to_show": 7,
+        "columns_desktop": 2,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -113,46 +160,6 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collection_list_8N8FhF": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_e6zdXy": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_gVLWTQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_Rge8gM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_e6zdXy",
-        "featured_collection_gVLWTQ",
-        "featured_collection_Rge8gM"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
@@ -323,46 +330,44 @@
         "padding_bottom": 52
       }
     },
-    "custom_liquid_VkakLU": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "collection_list_haKjgB": {
       "type": "collection-list",
       "blocks": {
         "featured_collection_bgmyie": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "classic-percale"
           }
         },
         "featured_collection_NGpq7f": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "luxe-sateen"
           }
         },
         "featured_collection_H9QPCc": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "washed-linen"
+          }
+        },
+        "featured_collection_gFdH6q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "organic-cotton"
           }
         }
       },
       "block_order": [
         "featured_collection_bgmyie",
         "featured_collection_NGpq7f",
-        "featured_collection_H9QPCc"
+        "featured_collection_H9QPCc",
+        "featured_collection_gFdH6q"
       ],
       "settings": {
         "title": "Our Award-Winning Sheets",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
@@ -418,19 +423,35 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "17106025940a0bf47d": {
+      "type": "apps",
+      "blocks": {
+        "trustoo_io_product_reviews_card_carousel_gLn9hm": {
+          "type": "shopify:\/\/apps\/trustoo-io-product-reviews\/blocks\/card-carousel\/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "trustoo_io_product_reviews_card_carousel_gLn9hm"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
     "rich_text_mxdMcV",
-    "featured_collection_CQJzxh",
-    "collection_list_8N8FhF",
+    "collection_list_nrtUnn",
+    "featured_collection_i3hkMU",
     "rich_text_TtapR4",
     "rich_text_tkrErm",
     "multicolumn_VCpwhm",
     "rich_text_tGJ8Fk",
-    "custom_liquid_VkakLU",
     "collection_list_haKjgB",
-    "image_with_text_qrDEkK"
+    "image_with_text_qrDEkK",
+    "17106025940a0bf47d"
   ]
 }
