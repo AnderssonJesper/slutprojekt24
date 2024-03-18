@@ -4,10 +4,34 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_yU6jVr": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Butiken",
+            "menu": "main-menu"
+          }
+        },
+        "image_PcW4fa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/essential-oil-3139479_1280.jpg",
+            "image_width": 550,
+            "alignment": "right"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_yU6jVr",
+        "image_PcW4fa"
+      ],
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Newsletter",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
