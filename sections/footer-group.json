@@ -5,25 +5,24 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "link_list_yU6jVr": {
+        "link_list_77FQnV": {
           "type": "link_list",
           "settings": {
-            "heading": "Butiken",
+            "heading": "About",
             "menu": "main-menu"
           }
         },
-        "image_PcW4fa": {
-          "type": "image",
+        "link_list_KLciVC": {
+          "type": "link_list",
           "settings": {
-            "image": "shopify:\/\/shop_images\/essential-oil-3139479_1280.jpg",
-            "image_width": 550,
-            "alignment": "right"
+            "heading": "Support",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
-        "link_list_yU6jVr",
-        "image_PcW4fa"
+        "link_list_77FQnV",
+        "link_list_KLciVC"
       ],
       "custom_css": [
 
@@ -31,11 +30,11 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Newsletter",
-        "enable_follow_on_shop": true,
+        "newsletter_heading": "Get the good sheeet",
+        "enable_follow_on_shop": false,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,

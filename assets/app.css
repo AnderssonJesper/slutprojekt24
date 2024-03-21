@@ -21,6 +21,19 @@
   color: #283455;
   font-size: 18px;
 }
+footer {
+  background-color: #DDE3EC !important;
+}
+.footer-block--newsletter {
+  display: block !important;
+  align-items: initial !important;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+.footer-block--newsletter .list-unstyled.list-social.footer__list-social {
+  margin-top: 20px;
+  justify-content: flex-start;
+}
 .banner__heading {
   color: #283455;
   margin-top: -10rem;

@@ -102,8 +102,8 @@
     "brand_image_width": 100,
     "social_facebook_link": "#",
     "social_instagram_link": "#",
-    "social_youtube_link": "#",
-    "social_tiktok_link": "#",
+    "social_youtube_link": "",
+    "social_tiktok_link": "",
     "social_twitter_link": "#",
     "social_snapchat_link": "",
     "social_pinterest_link": "#",
@@ -135,14 +135,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "1143683040400472741": {
-        "type": "shopify:\/\/apps\/trustoo-io-product-reviews\/blocks\/trustoo-review-switch\/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

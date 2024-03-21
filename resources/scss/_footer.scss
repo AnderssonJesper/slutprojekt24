@@ -1,0 +1,18 @@
+footer{
+   background-color: #DDE3EC !important;
+}
+
+.footer-block--newsletter {
+  display: block !important;
+  align-items: initial !important;
+  margin-top: 3rem;
+  gap: 1rem;
+
+  .list-unstyled.list-social.footer__list-social {
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+  
+}
+  
+  
