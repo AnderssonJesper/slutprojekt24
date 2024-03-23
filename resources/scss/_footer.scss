@@ -1,0 +1,32 @@
+// Definiera variabler för återanvändbara värden
+$columns: 2;
+$rows: 2;
+$gap: 10px;
+
+footer {
+  background-color: #dde3ec !important;
+
+  .footer-block--newsletter {
+    display: block !important;
+    align-items: initial !important;
+    margin-top: 3rem;
+    gap: 1rem;
+
+    .list-unstyled.list-social.footer__list-social {
+      margin-top: 20px;
+      justify-content: flex-start;
+    }
+  }
+  .footer-block__details-content {
+    &.list-unstyled {
+      display: grid;
+      grid-template-columns: repeat(
+        #{$columns},
+        1fr
+      ); 
+      grid-template-rows: repeat(#{$rows}, auto);
+      gap: $gap;
+
+    }
+  }
+}

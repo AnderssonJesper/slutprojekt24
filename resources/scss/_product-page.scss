@@ -1,0 +1,21 @@
+.collection-hero.color-scheme-1.gradient {
+  display: none;
+}
+.multicolumn-card.content-container {
+  margin: 0 20px 0 20px !important;
+  max-width: none;
+}
+
+.title.inline-richtext.h1.scroll-trigger.animate--slide-in {
+  display: flex;
+  justify-content: center; // Centrerar horisontellt
+  align-items: center; // Centrerar vertikalt
+}
+
+.multicolumn-list.contains-content-container.grid.grid--1-col-tablet-down.grid--4-col-desktop {
+    padding-top: 20px;
+}
+
+.multicolumn {
+    background-color: #ffffff; 
+}
