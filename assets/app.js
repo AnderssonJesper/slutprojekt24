@@ -1,24 +1,26 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var image = document.getElementById("overlay-trigger");
-  image.addEventListener("click", function() {
-    var xhr = new XMLHttpRequest();
-    var url = "/ajax_handler.php?action=get_overlay_content";
-    xhr.open("GET", url, true);
-    xhr.onload = function() {
-      if (xhr.status >= 200 && xhr.status < 300) {
-        var response = xhr.responseText;
-        displayOverlay(response);
-      } else {
-        console.error("Request failed with status:", xhr.status);
-      }
-    };
-    xhr.onerror = function() {
-      console.error("Request failed");
-    };
-    xhr.send();
-  });
-  function displayOverlay(content) {
-    var overlayContent = document.querySelector(".overlay-step__wrapper");
-    overlayContent.innerHTML = content;
+  var imageIcon = document.querySelector(".epost-icon");
+  var closeButton = document.getElementById("close-overlay-btn");
+  var emailForm = document.getElementById("email-form");
+  if (imageIcon) {
+    imageIcon.addEventListener("click", function() {
+      var overlay = document.getElementById("overlay");
+      overlay.style.display = "block";
+    });
+  }
+  if (closeButton) {
+    closeButton.addEventListener("click", function() {
+      var overlay = document.getElementById("overlay");
+      overlay.style.display = "none";
+    });
+  }
+  if (emailForm) {
+    emailForm.addEventListener("submit", function(event) {
+      event.preventDefault();
+      var emailInput = document.getElementById("email-input").value;
+      console.log("Submitted email:", emailInput);
+      var overlay = document.getElementById("overlay");
+      overlay.style.display = "none";
+    });
   }
 });

@@ -18,7 +18,8 @@
 
      .banner__buttons{
             background-color: $main-color;
-            border-radius: 10px;
+            border-radius: 20px;
+            
 
             .button.button--secondary{
                 background-color: $main-color;
@@ -59,6 +60,8 @@
                         .button--secondary{
                             background-color: transparent;
                             color: $main-color;
+                            font-weight: bold;
+                            padding: 20px;
                         }
 
                     }
@@ -110,6 +113,9 @@
     }
   }
 }
+
+
+
         
         .rich-text {
   &.content-container {
@@ -132,6 +138,7 @@
                     margin-top: 2rem;
                     background-color: transparent;
                     color: $main-color;
+                    border: 2px solid $main-color;
                            
                       }
                     }
@@ -145,6 +152,28 @@
     }
   }
 }
+
+
+
+#Slider-template--22345734914352__collection_list_nrtUnn{
+  .card__content{
+   position: absolute;
+    left: 51%;
+    top: 2%;
+    transform: translate(-50%, -100%);
+
+   
+    .icon-wrap{
+      display: none;
+    }
+  }
+}
+
+.rich-text__buttons .button--primary {
+    background-color: $main-color;
+
+}
+
 
     .multicolumn{
         background-color: $background;
@@ -251,7 +280,12 @@
                                             .card__content {
                                               .card__information {
                                                 .card__heading {
+                                                      position: absolute;
+    left: 25%;
+          bottom: 100%;
+}
                                                   a {
+                                                    
                                                   }
                                                 }
                                                 
@@ -273,6 +307,43 @@
                     }
                   }
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section-template--22345734914352__image_with_text_qrDEkK-padding{
+    background-color: $background;
+  }
+.image-with-text {
+  &.image-with-text--no-overlap {
+    &.isolate {
+      &.scroll-trigger {
+        &.animate--slide-in {
+          .image-with-text__heading {
+          color: $main-color;
+          font-size: 5rem;
+          font-weight: 800;
+
+          }
+          .image-with-text__text {
+            color: $main-color;
+          }
+
+          .image-with-text__text p{
+            color: $main-color;
+          }
+          .button {
+            &--primary {
+              background-color: transparent;
+              color: $main-color;
+              border: 2px solid $main-color;
+
+              &:hover{
+                background-color: $main-color;
               }
             }
           }

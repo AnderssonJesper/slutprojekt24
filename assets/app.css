@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .utility-bar {
   background-color: #283455;
   padding: 8px;
@@ -21,6 +22,24 @@
   color: #283455;
   font-size: 18px;
 }
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Bakgrundsfärg för overlayen */
+  z-index: 9999; /* Se till att overlayen visas över allt annat på sidan */
+}
+#overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* Bakgrundsfärg för innehållet i overlayen */
+  padding: 20px;
+}
 .banner__heading {
   color: #283455;
   margin-top: -10rem;
@@ -32,7 +51,7 @@
 }
 .banner__buttons {
   background-color: #283455;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .banner__buttons .button.button--secondary {
   background-color: #283455;
@@ -62,6 +81,8 @@
 .rich-text.content-container .rich-text__buttons .button--secondary {
   background-color: transparent;
   color: #283455;
+  font-weight: bold;
+  padding: 20px;
 }
 .collection-list-wrapper .collection-list-title {
   padding-left: 35rem;
@@ -94,6 +115,19 @@
   margin-top: 2rem;
   background-color: transparent;
   color: #283455;
+  border: 2px solid #283455;
+}
+#Slider-template--22345734914352__collection_list_nrtUnn .card__content {
+  position: absolute;
+  left: 51%;
+  top: 2%;
+  transform: translate(-50%, -100%);
+}
+#Slider-template--22345734914352__collection_list_nrtUnn .card__content .icon-wrap {
+  display: none;
+}
+.rich-text__buttons .button--primary {
+  background-color: #283455;
 }
 .multicolumn {
   background-color: #F9F3ED;
@@ -124,6 +158,46 @@
 .collection-list-wrapper.page-width.isolate.no-mobile-link.section-template--22345734914352__collection_list_haKjgB-padding .title-wrapper-with-link.title-wrapper--self-padded-mobile.title-wrapper--no-top-margin .collection-list-title {
   margin-left: 3rem;
   font-size: 3rem;
+}
+.collection-list-wrapper.page-width.isolate.no-mobile-link.section-template--22345734914352__collection_list_haKjgB-padding .collection-list.contains-card.contains-card--collection.contains-card--standard.grid--4-col-desktop--1-col-tablet-down .collection-list__item.grid__item.scroll-trigger.animate--slide-in .card-wrapper.animate-arrow .card.card--standard.card--media .card__inner .card__content .card__information .card__heading {
+  position: absolute;
+  left: 25%;
+  bottom: 100%;
+}
+.section-template--22345734914352__image_with_text_qrDEkK-padding {
+  background-color: #F9F3ED;
+}
+.image-with-text.image-with-text--no-overlap.isolate.scroll-trigger.animate--slide-in .image-with-text__heading {
+  color: #283455;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.image-with-text.image-with-text--no-overlap.isolate.scroll-trigger.animate--slide-in .image-with-text__text {
+  color: #283455;
+}
+.image-with-text.image-with-text--no-overlap.isolate.scroll-trigger.animate--slide-in .image-with-text__text p {
+  color: #283455;
+}
+.image-with-text.image-with-text--no-overlap.isolate.scroll-trigger.animate--slide-in .button--primary {
+  background-color: transparent;
+  color: #283455;
+  border: 2px solid #283455;
+}
+.image-with-text.image-with-text--no-overlap.isolate.scroll-trigger.animate--slide-in .button--primary:hover {
+  background-color: #283455;
+}
+#MainProduct-template--22345734324528__main {
+  background-color: #F9F3ED;
+}
+.product-form__buttons {
+  padding-right: 230px;
+}
+#ProductSubmitButton-template--22345734324528__main {
+  background-color: #283455;
+  color: #fff;
+}
+.wallet-button-fade-in {
+  display: none;
 }
 body {
   margin: 0;

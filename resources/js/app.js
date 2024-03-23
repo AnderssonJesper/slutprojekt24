@@ -1,53 +1,30 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var imageIcon = document.querySelector('.epost-icon');
+  var closeButton = document.getElementById('close-overlay-btn');
+  var emailForm = document.getElementById('email-form');
 
-
-
-
-//Ajax kall för navbar
-    document.addEventListener("DOMContentLoaded", function() {
-    // Get a reference to the image element
-    var image = document.getElementById("overlay-trigger");
-
-    // Add click event listener to the image
-    image.addEventListener("click", function() {
-      // Create a new XMLHttpRequest object
-      var xhr = new XMLHttpRequest();
-
-    // Define the AJAX endpoint URL
-    var url = "/ajax_handler.php?action=get_overlay_content";
-
-    // Configure the AJAX request
-    xhr.open("GET", url, true);
-
-    // Define the callback function to handle the AJAX response
-    xhr.onload = function() {
-        if (xhr.status >= 200 && xhr.status < 300) {
-          // Request was successful
-          var response = xhr.responseText;
-
-    // Display the overlay with the fetched content
-    displayOverlay(response);
-        } else {
-        // Request failed
-        console.error('Request failed with status:', xhr.status);
-        }
-      };
-
-    // Handle network errors
-    xhr.onerror = function() {
-        console.error('Request failed');
-      };
-
-    // Send the AJAX request
-    xhr.send();
+  if (imageIcon) {
+    imageIcon.addEventListener('click', function () {
+      var overlay = document.getElementById('overlay');
+      overlay.style.display = 'block';
     });
+  }
 
-    // Function to display the overlay with fetched content
-    function displayOverlay(content) {
-      // Update the overlay content with the fetched content
-      var overlayContent = document.querySelector('.overlay-step__wrapper');
-    overlayContent.innerHTML = content;
+  if (closeButton) {
+    closeButton.addEventListener('click', function () {
+      var overlay = document.getElementById('overlay');
+      overlay.style.display = 'none';
+    });
+  }
 
-      // Show the overlay
-      // You need to implement the logic to show the overlay based on your styling or framework
-    }
-  });
+  if (emailForm) {
+    emailForm.addEventListener('submit', function (event) {
+      event.preventDefault(); 
+      var emailInput = document.getElementById('email-input').value;
+      console.log('Submitted email:', emailInput); 
+      var overlay = document.getElementById('overlay');
+      overlay.style.display = 'none'; 
+    });
+  }
+});
+

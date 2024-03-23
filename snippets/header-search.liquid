@@ -9,6 +9,19 @@
 {% endcomment %}
 
 <img src="{{ 'header-icon.png' | asset_url }}" alt="E-post" width="23" height="23" class="epost-icon">
+<div id="overlay">
+    <div id="overlay-content">
+        <h3>Enter your email for 20% off your order</h3>
+        <p>Your 20% off will be applied in checkout.</p>
+        <form id="email-form">
+            <input type="email" id="email-input" placeholder="Enter your email" required>
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+        <button id="close-overlay-btn">Close</button>
+    </div>
+</div>
+
+
 
 
 
