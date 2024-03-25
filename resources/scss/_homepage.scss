@@ -1,3 +1,4 @@
+
 .banner__heading{
     color: $main-color;
     
@@ -38,7 +39,7 @@
 
                 .rich-text__heading{
                     display: flex;
-                    margin-left: -30rem;
+                    margin-left: -20rem;
                     color: $main-color;
                     font-weight: bold;
 
@@ -47,13 +48,13 @@
                 }
                  .rich-text__text{
                         color:$main-color;
-                        margin-left: -30rem;
+                        margin-left: -20rem;
                         display: flex;
                     }
 
                     .rich-text__buttons{
                         display: flex;
-                        margin-left: 70rem;
+                        margin-left: 53rem;
                         margin-top: -7rem;
 
 
@@ -134,7 +135,6 @@
 
                     .button {
                       &--primary {
-                    margin-left: -135rem;
                     margin-top: 2rem;
                     background-color: transparent;
                     color: $main-color;
@@ -209,12 +209,12 @@
                 .rich-text__heading {
                   padding-left: 15rem;
                 }
+                
                 .rich-text__buttons {
                   &.scroll-trigger {
                     &.animate--slide-in {
                       .button {
                         &--primary {
-                          margin-left: -150rem;
                           margin-top: 2rem;
                         }
                       }
@@ -229,7 +229,14 @@
     }
   }
 }
-
+.section-template--22345734914352__custom_liquid_MF3LLx-padding{
+  background-color: $background;
+  display: flex;
+                  justify-content: center;
+.tickertape-wrapper img{
+                 margin-right: 25px;
+                }
+              }
 
 //OUR AWARD WINNING
 
@@ -351,4 +358,140 @@
       }
     }
   }
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner__heading {
+        margin-top: -5rem; 
+    }
+
+    .banner__text p {
+        font-size: 1.5rem; 
+    }
+
+    .banner__buttons {
+        .button.button--secondary {
+            background-color: $main-color; 
+        }
+    }
+
+    .rich-text.content-container {
+        .rich-text__heading,
+        .rich-text__text,
+        .rich-text__buttons {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+
+    .collection-list-wrapper {
+        .collection-list-title {
+            margin: 0;
+            padding-left: 6rem;
+            font-size: 3rem; 
+            padding-top: 2rem;
+        }
+    }
+   
+
+    .collection .collection__title .title h2 {
+        font-size: 4rem; 
+    }
+    
+     .card-wrapper {
+      margin-bottom: 3rem;
+    }
+
+    .rich-text {
+  &.content-container {
+    &.color-scheme-1 {
+      &.gradient {
+        &.rich-text--full-width {
+          &.content-container--full-width {
+            &.section-template--22345734914352__rich_text_tkrErm-padding {
+                .rich-text__heading{
+                    margin-left: 0rem;
+                }
+              .rich-text__buttons {
+                &.scroll-trigger {
+                  &.animate--slide-in {
+                                    color: $main-color;
+
+                  }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+    }
+
+ // AS SEEN IN
+    .rich-text {
+  &.content-container {
+    &.color-scheme-1 {
+      &.gradient {
+        &.rich-text--full-width {
+          &.content-container--full-width {
+            &.section-template--22345734914352__rich_text_tGJ8Fk-padding {
+                                    background-color: $background;
+
+              .rich-text__blocks {
+                .rich-text__heading {
+                  padding-left: 0;
+                }
+                .rich-text__buttons {
+                  &.scroll-trigger {
+                    &.animate--slide-in {
+                      .button {
+                        &--primary {
+                          margin-top: 3rem;
+                          margin-bottom: -3rem;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.section-template--22345734914352__custom_liquid_MF3LLx-padding {
+    display: block; 
+    text-align: center; 
+    padding: 4rem;
+  }
+  .tickertape-wrapper img {
+    margin-left: 25px;
+    margin-top: 2rem;
+  }
+
+    .image-with-text {
+        &.image-with-text--no-overlap {
+            &.isolate {
+                &.scroll-trigger {
+                    &.animate--slide-in {
+                        .image-with-text__heading,
+                        .image-with-text__text p {
+                            font-size: 1.5rem; 
+                        }
+
+                        .button {
+                            &--primary {
+                                margin-left: 0; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -3,6 +3,12 @@
     background-color: $background;
 }
 
+.product__title h1{
+    
+        color: $main-color;
+    
+}
+
 .product-form__buttons{
     padding-right: 230px;
 }
@@ -12,4 +18,12 @@
 }
 .wallet-button-fade-in{
     display: none;
+}
+
+.reviews-wrapper{
+    background-color: $background;
+}
+
+.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
+  background-color: $background;
 }

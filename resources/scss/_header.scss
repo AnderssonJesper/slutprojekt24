@@ -48,3 +48,32 @@
     background-color: #fff; 
     padding: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .utility-bar {
+        padding: 5px; 
+    }
+    
+    .header__icons{
+        padding-left: 0; 
+    }
+    .epost-icon{
+    
+    margin-right: 0;
+}
+
+.header__search{
+    margin-right: -10px;
+}
+    
+    .header__menu-item span {
+        font-size: 14px; 
+    }
+
+    #overlay-content{
+        top: 45%;
+        left: 50%;
+        width: 90%;
+    }
+}

@@ -1,3 +1,7 @@
+.cart-drawer{
+    background-color: $background;
+}
+
 .drawer__heading{
        margin-top: 10rem !important;
        color: $main-color;
@@ -11,4 +15,46 @@
     justify-content: center;
     align-items: center;
     margin-left: 10rem;
+}
+
+.quantity-popover-container{
+    border: 1px solid #333;
+    border-radius: 20px;
+    width: 7rem !important;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.cart-remove-button{
+   margin-top: -1rem !important;
+    margin-left: -15px !important;
+    text-decoration: underline;
+}
+
+.cart__checkout-button{
+    background-color: $main-color;
+}
+
+
+
+#CartDrawer-CartErrors{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+.quantity-popover-container{
+    border: 1px solid #333;
+    border-radius: 20px;
+    width: 7rem !important;
+    height: 4rem;
+    margin-left: 2rem;
+}
+
+.cart-remove-button{
+   margin-top: -1rem !important;
+    margin-left: 0 !important;
+    text-decoration: underline;
+}
+
 }
