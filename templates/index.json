@@ -185,7 +185,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Your Store",
-            "button_link": "",
+            "button_link": "shopify:\/\/blogs\/news",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -221,7 +221,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Best Sellers",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -309,7 +309,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Award-Winners",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/luxe-sateen",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -407,7 +407,7 @@
           "type": "button",
           "settings": {
             "button_label": "Take the Quiz",
-            "button_link": "",
+            "button_link": "shopify:\/\/blogs\/news",
             "button_style_secondary": false
           }
         }

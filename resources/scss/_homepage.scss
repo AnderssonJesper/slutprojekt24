@@ -95,9 +95,15 @@
                     font-weight: bold;
                     font-size: 6rem;
                 }
+
+              
             }
         }
     }
+    .card__heading{
+                  color: $main-color;
+                  font-weight: 600;
+                }
 
 .rich-text {
   &.content-container {
@@ -286,12 +292,15 @@
                                             
                                             .card__content {
                                               .card__information {
+                                                
                                                 .card__heading {
                                                       position: absolute;
-    left: 25%;
+              left: 25%;
           bottom: 100%;
+          
 }
                                                   a {
+                                                    
                                                     
                                                   }
                                                 }
@@ -438,7 +447,7 @@
         &.rich-text--full-width {
           &.content-container--full-width {
             &.section-template--22345734914352__rich_text_tGJ8Fk-padding {
-                                    background-color: $background;
+              background-color: $background;
 
               .rich-text__blocks {
                 .rich-text__heading {
