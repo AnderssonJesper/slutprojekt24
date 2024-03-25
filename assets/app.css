@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .utility-bar {
   background-color: #283455;
   padding: 8px;
@@ -79,6 +80,26 @@ footer .footer-block__details-content.list-unstyled {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 10px;
+}
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Visa knappen bara när användaren har rullat ner */
+  width: 40px;
+  height: 40px;
+  background-color: #283455;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+#scrollToTopBtn i {
+  font-size: 20px;
+}
+#scrollToTopBtn:hover {
+  background-color: #0056b3; /* Ändra bakgrundsfärgen vid hovring */
 }
 .banner__heading {
   color: #283455;
@@ -315,6 +336,24 @@ footer .footer-block__details-content.list-unstyled {
 }
 .header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
   background-color: #F9F3ED;
+}
+.collection-hero.color-scheme-1.gradient {
+  display: none !important;
+}
+.multicolumn-card.content-container {
+  margin: 0 20px 0 20px !important;
+  max-width: none;
+}
+.title.inline-richtext.h1.scroll-trigger.animate--slide-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.multicolumn-list.contains-content-container.grid.grid--1-col-tablet-down.grid--4-col-desktop {
+  padding-top: 20px;
+}
+.multicolumn {
+  background-color: #ffffff;
 }
 .cart-drawer {
   background-color: #F9F3ED;

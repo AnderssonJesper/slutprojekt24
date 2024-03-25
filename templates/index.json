@@ -35,7 +35,6 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -409,7 +408,6 @@
         "button_44ajD9"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner2.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

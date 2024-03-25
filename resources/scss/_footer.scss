@@ -20,13 +20,32 @@ footer {
   .footer-block__details-content {
     &.list-unstyled {
       display: grid;
-      grid-template-columns: repeat(
-        #{$columns},
-        1fr
-      ); 
+      grid-template-columns: repeat(#{$columns}, 1fr);
       grid-template-rows: repeat(#{$rows}, auto);
       gap: $gap;
-
     }
+  }
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Visa knappen bara när användaren har rullat ner */
+  width: 40px;
+  height: 40px;
+  background-color: #283455;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+
+  i {
+    font-size: 20px;
+  }
+
+  &:hover {
+    background-color: #0056b3; /* Ändra bakgrundsfärgen vid hovring */
   }
 }

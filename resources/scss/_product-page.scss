@@ -1,6 +1,7 @@
 .collection-hero.color-scheme-1.gradient {
-  display: none;
+  display: none !important;
 }
+
 .multicolumn-card.content-container {
   margin: 0 20px 0 20px !important;
   max-width: none;
@@ -13,9 +14,9 @@
 }
 
 .multicolumn-list.contains-content-container.grid.grid--1-col-tablet-down.grid--4-col-desktop {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .multicolumn {
-    background-color: #ffffff; 
+  background-color: #ffffff;
 }
