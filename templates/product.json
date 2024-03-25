@@ -3,6 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -41,22 +48,17 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
-        },
-        "product_descriptions_by_amp_advanced_description_MKHKNM": {
-          "type": "shopify:\/\/apps\/product-descriptions-by-amp\/blocks\/advanced-description\/cffc7d91-64c9-4f4d-88f8-8eb78b420747",
-          "settings": {
-          }
         }
       },
       "block_order": [
+        "vendor",
         "title",
         "rating_a6nzmG",
         "price",
         "description",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "product_descriptions_by_amp_advanced_description_MKHKNM"
+        "buy_buttons"
       ],
       "settings": {
         "enable_sticky_info": true,
